@@ -121,7 +121,7 @@ local function table_to_string(t, depth, result)
 	return result .. "}"
 end
 
-
+--- @class logger
 local Logger = {}
 
 ---@param level string @TRACE, DEBUG, INFO, WARN, ERROR
